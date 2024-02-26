@@ -1,0 +1,94 @@
+body
+{
+    margin-top: 60px;
+  background-color:rgb(25, 25, 25);
+  font-family: arial;
+  color: white;
+}
+
+.p1
+{
+  font-size: 28px;
+  font-weight:bold;
+}
+button
+{
+  background-color: transparent;
+  border-radius: 50%;
+  border: 3px solid white;
+  padding: 26px 28px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+img
+{
+  height: 48px;
+}
+.js-res
+{
+  font-size: 24px;
+  font-weight: bold;
+}
+.js-score
+{
+  margin-top: 70px;
+  font-size: 16px;
+
+}
+.Reset-button,.auto-button
+{
+  background-color: white;
+  border-radius:0px;
+  font-size: 18px;
+  padding: 10px 14px;
+}
+@media (max-width:500px)
+{
+    body 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    header,footer
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    main 
+    {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+    }
+
+}
+@media (min-width:1000px)
+{
+    body 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    header,footer
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    main 
+    {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+    }
+
+}
