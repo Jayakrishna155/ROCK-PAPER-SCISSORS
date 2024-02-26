@@ -6,7 +6,7 @@
     })
     document.querySelector('.paper-button').addEventListener('click',()=>
     {
-      playGame('paper');
+      playGame('Paper');
     })
     document.querySelector('.scissor-button').addEventListener('click',()=>
     {
@@ -20,7 +20,7 @@
       }
       else if(event.key === 'p')
       {
-        playGame('paper');
+        playGame('Paper');
       }
       else
       {
